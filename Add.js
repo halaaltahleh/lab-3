@@ -8,4 +8,12 @@ if (noNewspaper >= 1 && noNewspaper < 5) {
 else if (noNewspaper > 10) {
     OrderDetails = "Congratulations you got free delivery of your newspaper every day"
 }
+else {
+    OrderDetails = "We apologize. There is an error"
+}
+
+
+
+
+document.write(OrderDetails)
 
