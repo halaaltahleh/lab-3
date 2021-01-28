@@ -37,4 +37,10 @@ else
     }
 var numper = prompt(`how many do you want?`)
 
+var result = "";
+for (var i = 0; i < numper; i++) {
+
+    result = result + picture;
+}
+
 
