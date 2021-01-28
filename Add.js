@@ -27,20 +27,22 @@ while (order !== `newspaper` && order !== `book`) {
 
 }
 
-var picture = ``;
+var item = ``;
 if (order === `newspaper`) {
-    picture = `<img src="images/newspaper.jpeg"/>`;
+    item = `<img src="images/newspaper.jpeg"/>`;
 }
 else
     if (order === `book`) {
-        picture = `<img src="images/bookr.png"/>`;
+        item = `<img src="images/book.png"/>`;
     }
 var numper = prompt(`how many do you want?`)
 
 var result = "";
 for (var i = 0; i < numper; i++) {
 
-    result = result + picture;
+    result = result + item;
 }
+
+document.write(result);
 
 
