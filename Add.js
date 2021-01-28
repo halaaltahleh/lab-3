@@ -19,3 +19,14 @@ confirm("welcom");
 alert("thank you");
 
 
+var order = prompt(`what do you want newspaper or book`);
+
+while (order !== `newspaper` && order !== `book`) {
+
+    order = prompt(`what do you want newspaper or book`);
+
+}
+alert(`ok`);
+
+
+
