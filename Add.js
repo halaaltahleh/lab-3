@@ -27,13 +27,13 @@ while (order !== `newspaper` && order !== `book`) {
 
 }
 
-var itemorder = ``;
+var picture = ``;
 if (order === `newspaper`) {
-    itemorder = `<img src="images/newspaper.jpeg"/>`;
+    picture = `<img src="images/newspaper.jpeg"/>`;
 }
 else
     if (order === `book`) {
-        itemorder = `<img src="images/bookr.png"/>`;
+        picture = `<img src="images/bookr.png"/>`;
     }
 var numper = prompt(`how many do you want?`)
 
