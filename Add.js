@@ -26,16 +26,15 @@ while (order !== `newspaper` && order !== `book`) {
     order = prompt(`what do you want newspaper or book`);
 
 }
-alert(`ok`);
 
 var itemorder = ``;
-if (order === `newspaper`); {
-    itemorder = `<img src="images/newspaper.jpeg"/>`
+if (order === `newspaper`) {
+    itemorder = `<img src="images/newspaper.jpeg"/>`;
 }
 else
-if (order === `book`); {
-    itemorder = `<img src="images/bookr.png"/>`
-}
+    if (order === `book`) {
+        itemorder = `<img src="images/bookr.png"/>`;
+    }
 var numper = prompt(`how many do you want?`)
 
 
