@@ -45,4 +45,24 @@ for (var i = 0; i < numper; i++) {
 
 document.write(result);
 
+function getName() {
+    var Newspaper = prompt('Enter the name of your favorite newspaper');
+    console.log(typeof prompt);
+    console.log(Newspaper);
+    for (var i = 0; i <= 10; i++) {
+        console.log(i);
+    }
+
+
+}
+
+getName();
+var Area = function (x, y) {
+    var A = x * y;
+    return A;
+};
+var equal = Area(5, 3);
+console.log(equal);
+alert(equal);
+
 
